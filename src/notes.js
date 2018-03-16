@@ -2,8 +2,8 @@ console.log('Starting notes.js');
 
 const fs = require('fs');
 
-module.exports.year = 2018;
-module.exports.showYear = (year) => {
+var year = 2018;
+var showYear = (year) => {
     console.log(`Now ${year} year!`);
 }
 
@@ -51,6 +51,8 @@ var getSum = (a,b) => {
 };
 
 module.exports = {
+    year,
+    showYear,
     addNote,
     getNote,
     getAll,
