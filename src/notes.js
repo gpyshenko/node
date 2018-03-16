@@ -4,7 +4,7 @@ const fs = require('fs');
 
 module.exports.year = 2018;
 module.exports.showYear = (year) => {
-    console.log(`Now ${year} year!`);
+    console.log(`Now ${year + 1} year!`);
 }
 
 var fetchNotes = () => {
