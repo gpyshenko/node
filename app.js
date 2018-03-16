@@ -5,7 +5,7 @@ const yargs = require('yargs');
 //const aF = require('./src/appendFile');
 
 const notes = require('./src/notes');
-//const res = notes.showYear(notes.year); 
+const res = notes.showYear(notes.year); 
 
 const argv = yargs.argv;
 var command = process.argv[2];
